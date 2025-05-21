@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Achievements</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-award"></i>
+                Life Achievements
+            </a>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Tracking Life's Greatest Achievements</h1>
+                <p class="hero-subtitle">A journey through milestones, challenges overcome, and dreams realized</p>
+                <a href="#timeline" class="btn">View Timeline</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About This Journey</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to my Life Achievements Portfolio, a digital chronicle of my personal and professional journey. This platform serves as both a reflection of my past accomplishments and a roadmap for future goals.</p>
+                    <p>Each milestone represents a chapter in my story - from academic achievements and career advancements to personal growth and community contributions. I believe in celebrating not just the destinations, but the journeys that shape us.</p>
+                    <p>Through this portfolio, I aim to share the lessons learned, skills acquired, and the mindset that has helped me overcome challenges and embrace new opportunities. Whether you're a potential employer, collaborator, or simply someone interested in my journey, I hope this chronicle provides insight into my capabilities and character.</p>
+                </div>
+                <div class="about-image">
+                    <img src="hazel.jpg" alt="Life Journey Representation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline">
+        <div class="container">
+            <h2 class="section-title">Achievement Timeline</h2>
+            <div class="timeline-container">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2016 - 2020</div>
+                        <h3 class="timeline-title">Graduated High School with High Honors</h3>
+                        <p class="timeline-desc">Completed secondary education with a 95 GPA and received recognition for excellence in mathematics and science.</p>
+                        <button class="btn" onclick="toggleTimelineImage(this)">View Achievement</button>
+                        <img src="/api/placeholder/600/400" alt="High School Graduation" class="timeline-image">
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2019</div>
+                        <h3 class="timeline-title">Completed First Marathon</h3>
+                        <p class="timeline-desc">After six months of rigorous training, completed my first full marathon with a time of 3:45:22.</p>
+                        <button class="btn" onclick="toggleTimelineImage(this)">View Achievement</button>
+                        <img src="10k marathon medal.jpg" alt="Marathon Completion" class="timeline-image">
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2021</div>
+                        <h3 class="timeline-title">Essay Writing | First Placer</h3>
+                        <button class="btn" onclick="toggleTimelineImage(this)">View Achievement</button>
+                        <img src="essay.jpg" alt="University Graduation" class="timeline-image">
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">September 2022</div>
+                        <h3 class="timeline-title">Work Immersion Award</h3>
+                        <button class="btn" onclick="toggleTimelineImage(this)">View Achievement</button>
+                        <img src="immersion.jpg" alt="Research Publication" class="timeline-image">
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2021</div>
+                        <h3 class="timeline-title">Grade 11 with High Honors</h3>
+                        <button class="btn" onclick="toggleTimelineImage(this)">View Achievement</button>
+                        <img src="download (1).jpg" alt="Promotion Certificate" class="timeline-image">
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 6 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">January 2019</div>
+                        <h3 class="timeline-title">Quiz Bowl | First Placer</h3>
+                        <button class="btn" onclick="toggleTimelineImage(this)">View Achievement</button>
+                        <img src="download (2).jpg" alt="Volunteer Award" class="timeline-image">
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 7 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 2025</div>
+                        <h3 class="timeline-title">Launched First Tech Startup</h3>
+                        <p class="timeline-desc">Founded an innovative tech startup focused on sustainable solutions for environmental challenges.</p>
+                        <button class="btn" onclick="toggleTimelineImage(this)">View Achievement</button>
+                        <img src="/api/placeholder/600/400" alt="Startup Launch Event" class="timeline-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+            <div class="container">
+            <h2 class="section-title">Achievements Gallery</h2>
+            <div class="gallery-container">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" onclick="openModal('Pictorial Day', 'October 2022',  'picture.jpg')">
+                    <img src="picture.jpg" alt="Pictorial Day" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Pictorial Day</h3>
+                        <p class="gallery-subtitle">October 2022</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" onclick="openModal('Conduct Award', 'May 2023',  'conductaward.jpg')">
+                    <img src="conductaward.jpg" alt="Conference Speaker" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Conduct Award</h3>
+                        <p class="gallery-subtitle">May 2023</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" onclick="openModal('Mountain Summit Expedition', 'July 2023',  'conduct.jpg')">
+                    <img src="Victory😌✨.jpg" alt="Mountain Climbing" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Mountain Summit Expedition</h3>
+                        <p class="gallery-subtitle">July 2023</p>
+                    </div>
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Contact section -->
+      <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>hazellibor3@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>0936 680 4045</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Langatian, Roxas Zamboanga del Norte</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Phone (optional)">
+                        </div>
+                        <div class="form-group full-width">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <button type="submit" class="btn-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
